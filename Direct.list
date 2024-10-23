@@ -5,13 +5,22 @@
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
-
+DOMAIN-SUFFIX,s8ks.org
+DOMAIN-SUFFIX,cyinc.cc
+DOMAIN-SUFFIX,cyltd.cc
+DOMAIN-SUFFIX,cy-2024.com
+DOMAIN-SUFFIX,cc232.cc
+DOMAIN-SUFFIX,inlook.me
+DOMAIN-SUFFIX,cyoo.top
+DOMAIN-SUFFIX,cy298.org
+DOMAIN-SUFFIX,cy298.cyou
+DOMAIN-SUFFIX,abcdfeg.us
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
-
+IP-CIDR,43.203.193.0/32,no-resolve
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub

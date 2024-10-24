@@ -5,6 +5,7 @@
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
+# chuyun域名匹配
 DOMAIN-SUFFIX,s8ks.org
 DOMAIN-SUFFIX,cyinc.cc
 DOMAIN-SUFFIX,cyltd.cc
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,cy298.org
 DOMAIN-SUFFIX,cy298.cyou
 DOMAIN-SUFFIX,abcdfeg.us
 DOMAIN-SUFFIX,8964315.xyz
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 

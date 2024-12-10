@@ -25,7 +25,7 @@ DOMAIN-KEYWORD,aktv
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,43.203.193.0/32,no-resolve
-IP-CIDR,45.32.228.44/32,no-resolve
+IP-CIDR,66.42.66.176/32,no-resolve
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub

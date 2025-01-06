@@ -1,10 +1,10 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,hxd.as174.de
 # chuyun域名匹配
 DOMAIN-SUFFIX,cyinc.cc
 DOMAIN-SUFFIX,cyltd.cc
@@ -22,7 +22,6 @@ DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,s8ks
 DOMAIN-KEYWORD,cy-2022.com
 DOMAIN-KEYWORD,aktv
-DOMAIN-KEYWORD,as174
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,43.203.193.0/32,no-resolve

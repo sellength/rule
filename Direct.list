@@ -26,6 +26,7 @@ DOMAIN-KEYWORD,cy-2022.com
 DOMAIN-KEYWORD,aktv
 DOMAIN-KEYWORD,fiverr
 DOMAIN-SUFFIX,appstorrent.ru
+DOMAIN-SUFFIX,openrouter.ai
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 IP-CIDR,43.203.193.0/32,no-resolve

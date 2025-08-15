@@ -2,7 +2,9 @@
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
+# sooplive相关域名akamai，sooplive
 DOMAIN-SUFFIX,sooplive.com
+DOMAIN-SUFFIX,akamai.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com

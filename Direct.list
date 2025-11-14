@@ -1,4 +1,10 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
+# work
+DOMAIN-SUFFIX,cdsb.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,tencentcloud.com
+DOMAIN-SUFFIX,htcloud.com
+DOMAIN-SUFFIX,ehuatai.com
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net

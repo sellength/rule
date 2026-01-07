@@ -205,7 +205,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - DIRECT
     use:
       - Airport_ChuYun
@@ -271,7 +270,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - DIRECT
 
   - name: 💬 Ai—GROUP
@@ -332,8 +330,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇨🇳 台湾节点
-      - 🚀 节点选择
-      - 🚀 手动切换
       - DIRECT
     use:
        - Airport_ChuYun
@@ -344,12 +340,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 🌍 国外媒体
     type: select
@@ -362,23 +352,13 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - DIRECT
 
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
-  
+      
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -390,7 +370,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - 🇨🇦 加拿大节点
 
   - name: Ⓜ️ 微软Bing
@@ -404,7 +383,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
 
   - name: Ⓜ️ 微软云盘
     type: select
@@ -417,7 +395,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
 
   - name: Ⓜ️ 微软服务
     type: select
@@ -430,7 +407,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
 
   - name: 🌏 Truky
     type: select
@@ -438,7 +414,6 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇭🇰 香港节点
       - 🇹🇷 truky
-      - 🚀 手动切换
     use:
        - Airport_ChuYun
        - Airport_PeiQian
@@ -455,21 +430,16 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
   
   - name: 🎶 网易音乐
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
 
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
 
   - name: 🐟 漏网之鱼
     type: select
@@ -483,7 +453,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
 
   # 地区自动分组
   - name: 🇭🇰 香港节点

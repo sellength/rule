@@ -74,7 +74,7 @@ proxy-providers:
     filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
-      url: http://cp.cloudflare.com/generate_204
+      url: http://www.gstatic.com/generate_204
       interval: 300
 
 # 2. 策略组 (Proxy Groups)

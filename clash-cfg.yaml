@@ -524,204 +524,202 @@ rule-providers:
   LocalAreaNetwork:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
     path: ./ruleset/LocalAreaNetwork.yaml
     interval: 86400
 
   ChinaDomain:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list"
     path: ./ruleset/ChinaDomain.yaml
     interval: 86400
 
   ChinaIp:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaIp.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaIp.list"
     path: ./ruleset/ChinaIp.yaml
     interval: 86400
 
   ChinaIpV6:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaIpV6.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaIpV6.list"
     path: ./ruleset/ChinaIpV6.yaml
     interval: 86400
 
   SteamRegionCheck:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamRegionCheck.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamRegionCheck.list"
     path: ./ruleset/SteamRegionCheck.yaml
     interval: 86400
 
   GoogleCN:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
     path: ./ruleset/GoogleCN.yaml
     interval: 86400
     
   SteamCN:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
     path: ./ruleset/SteamCN.yaml
     interval: 86400
 
   AiGroup:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/sellength/rule/refs/heads/main/Aiabout.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/sellength/rule/refs/heads/main/Aiabout.list"
     path: ./ruleset/Aiabout.yaml
     interval: 86400
   
   Gemini:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Gemini.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Gemini.list"
     path: ./ruleset/Gemini.yaml
     interval: 86400
 
   AbemaTV:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/LM-Firefly/Rules/refs/heads/master/Global-Services/AbemaTV.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/LM-Firefly/Rules/refs/heads/master/Global-Services/AbemaTV.list"
     path: ./ruleset/AbemaTV.yaml
     interval: 86400
 
   YouTube:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/YouTube.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/YouTube.list"
     path: ./ruleset/YouTube.yaml
     interval: 86400
 
   YouTubeMusic:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/YouTubeMusic.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/YouTubeMusic.list"
     path: ./ruleset/YouTubeMusic.yaml
     interval: 86400
 
   GoogleEarth:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/GoogleEarth.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/GoogleEarth.list"
     path: ./ruleset/GoogleEarth.yaml
     interval: 86400
   
   GoogleFCM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
     path: ./ruleset/GoogleFCM.yaml
     interval: 86400
     
   Google:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Google.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Google.list"
     path: ./ruleset/Google.yaml
     interval: 86400
 
   Bing:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
     path: ./ruleset/Bing.yaml
     interval: 86400
     
   OneDrive:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
     
   Microsoft:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
   TrukyList:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/sellength/rule/refs/heads/main/truky.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/sellength/rule/refs/heads/main/truky.list"
     path: ./ruleset/truky.yaml
     interval: 86400
 
   Apple:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
     path: ./ruleset/Apple.yaml
     interval: 86400
 
   Telegram:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
     path: ./ruleset/Telegram.yaml
     interval: 86400
 
   NetEaseMusic:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
     path: ./ruleset/NetEaseMusic.yaml
     interval: 86400
 
   Netflix:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
     path: ./ruleset/Netflix.yaml
     interval: 86400
 
   Bahamut:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
     path: ./ruleset/Bahamut.yaml
     interval: 86400
 
   BilibiliHMT:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
     path: ./ruleset/BilibiliHMT.yaml
     interval: 86400
     
   Bilibili:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
     path: ./ruleset/Bilibili.yaml
     interval: 86400
 
   ChinaMedia:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
     path: ./ruleset/ChinaMedia.yaml
     interval: 86400
 
   ProxyGFWlist:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+    url: "https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
     path: ./ruleset/ProxyGFWlist.yaml
     interval: 86400
 
 # 4. 规则 (Rules)
 # 根据 INI 顺序映射
 rules:
-  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
-  - DOMAIN-SUFFIX,cn,🎯 全球直连
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaIp,🎯 全球直连

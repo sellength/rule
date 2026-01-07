@@ -720,6 +720,8 @@ rule-providers:
 # 4. 规则 (Rules)
 # 根据 INI 顺序映射
 rules:
+  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cn,🎯 全球直连
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaIp,🎯 全球直连

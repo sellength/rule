@@ -725,7 +725,6 @@ rules:
   - RULE-SET,ChinaIp,🎯 全球直连
   - RULE-SET,ChinaIpV6,🎯 全球直连
   - RULE-SET,SteamRegionCheck,🎯 STEAM_DL_直连
-  - RULE-SET,GoogleCN,🎯 全球直连
   - RULE-SET,SteamCN,🎯 全球直连
   - RULE-SET,AiGroup,💬 Ai—GROUP
   - RULE-SET,Gemini,💬 Ai—GROUP

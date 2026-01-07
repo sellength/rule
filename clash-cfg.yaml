@@ -430,6 +430,10 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
+    use:
+       - Airport_ChuYun
+       - Airport_PeiQian
+       - Airport_SSRDog
   
   - name: 🎶 网易音乐
     type: select
@@ -445,14 +449,16 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
+    use:
+       - Airport_ChuYun
+       - Airport_PeiQian
+       - Airport_SSRDog
 
   # 地区自动分组
   - name: 🇭🇰 香港节点
@@ -750,4 +756,4 @@ rules:
   # 防止 DNS 泄露: CN IP 直接直连，不进行远程解析 (no-resolve 会加速匹配，但 GEOIP 规则本身如果 IP 未知会尝试解析)
   # 在 Fake-IP 模式下，Standard GEOIP Logic 适用
   - GEOIP,CN,🎯 全球直连,no-resolve
-  - MATCH,🐟 漏网之鱼
+  - FINAL,🐟 漏网之鱼

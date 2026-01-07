@@ -31,10 +31,8 @@ dns:
     - "*.lan"
     - "*.local"
   nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
-    - 2001:4860:4860::8888
-    - 2001:4860:4860::8844
+    - 223.5.5.5
+    - 119.29.29.29
   fallback:
     - https://dns.google/dns-query
     - https://1.1.1.1/dns-query

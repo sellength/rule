@@ -51,7 +51,7 @@ proxy-providers:
     url: "https://b-1209.cy-002.top/chu/abc/8d98fdbf57c152775e3b462bd4014c30"
     path: "./proxy_providers/Airport_ChuYun.yaml"
     interval: 3600
-    exclude-filter: "(?i)套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置"
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
@@ -62,7 +62,7 @@ proxy-providers:
     url: "https://xn--cp3a08l.com/api/v1/client/subscribe?token=7623970d04ab0bc25e70ebb68ed4fca3"
     path: "./proxy_providers/Airport_PeiQian.yaml"
     interval: 3600
-    exclude-filter: "(?i)套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置"
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
@@ -73,7 +73,7 @@ proxy-providers:
     url: "https://a3279cb510c19b9e7236008ae94a0115.cdn-res-oss-cn-hongkong-aliyuncs-file.com/s?t=a3279cb510c19b9e7236008ae94a0115.jpg"
     path: "./proxy_providers/Airport_SSRDog.yaml"
     interval: 3600
-    exclude-filter: "(?i)套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置"
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204

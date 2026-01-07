@@ -52,7 +52,7 @@ proxy-providers:
     filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: http://cp.cloudflare.com/generate_204
       interval: 300
 
   Airport_PeiQian:
@@ -63,7 +63,7 @@ proxy-providers:
     filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: http://cp.cloudflare.com/generate_204
       interval: 300
 
   Airport_SSRDog:
@@ -74,7 +74,7 @@ proxy-providers:
     filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: http://cp.cloudflare.com/generate_204
       interval: 300
 
 # 2. 策略组 (Proxy Groups)
@@ -108,7 +108,7 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     use:
@@ -118,7 +118,7 @@ proxy-groups:
 
   - name: 🔯 故障转移
     type: fallback
-    url: http://www.gstatic.com/generate_204
+    url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     use:
@@ -128,7 +128,7 @@ proxy-groups:
 
   - name: 🔮 负载均衡
     type: load-balance
-    url: http://www.gstatic.com/generate_204
+    url: http://cp.cloudflare.com/generate_204
     interval: 300
     strategy: consistent-hashing
     use:

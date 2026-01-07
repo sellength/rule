@@ -756,5 +756,5 @@ rules:
   - RULE-SET,ProxyGFWlist,🚀 节点选择
   # 防止 DNS 泄露: CN IP 直接直连，不进行远程解析 (no-resolve 会加速匹配，但 GEOIP 规则本身如果 IP 未知会尝试解析)
   # 在 Fake-IP 模式下，Standard GEOIP Logic 适用
-  - GEOIP,CN,🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼

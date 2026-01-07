@@ -374,10 +374,7 @@ proxy-groups:
 
   # 地区自动分组
   - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(港|HK|hk|Hong Kong|HongKong|hongkong)"
     use:
       - Airport_ChuYun
@@ -385,10 +382,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
     use:
       - Airport_ChuYun
@@ -396,10 +390,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 150
+    type: select
     filter: "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
     use:
       - Airport_ChuYun
@@ -407,10 +398,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇨🇳 台湾节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(台|新北|彰化|TW|Taiwan)"
     use:
       - Airport_ChuYun
@@ -418,10 +406,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(新加坡|坡|狮城|SG|Singapore)"
     use:
       - Airport_ChuYun
@@ -429,10 +414,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇰🇷 韩国节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(KR|Korea|KOR|首尔|韩|韓)"
     use:
       - Airport_ChuYun
@@ -440,10 +422,7 @@ proxy-groups:
       - Airport_SSRDog
 
   - name: 🇨🇦 加拿大节点
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(CA|CAN|Canada|加拿大)"
     use:
       - Airport_ChuYun
@@ -451,10 +430,7 @@ proxy-groups:
       - Airport_SSRDog
   
   - name: 🇹🇷 truky
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     filter: "(?i)(土耳其|Turkey|TR|tr)"
     use:
       - Airport_ChuYun

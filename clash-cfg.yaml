@@ -120,11 +120,7 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - DIRECT
-    use:
-      - Airport_ChuYun
-      - Airport_PeiQian
-      - Airport_SSRDog
-
+      
   - name: 🚀 手动切换
     type: select
     use:

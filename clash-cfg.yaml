@@ -168,10 +168,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-    use:
-      - Airport_ChuYun
-      - Airport_PeiQian
-      - Airport_SSRDog
 
   - name: 📲 电报消息
     type: select
@@ -184,7 +180,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - DIRECT
 
   - name: 💬 Ai—GROUP
     type: select
@@ -196,19 +191,11 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 🇨🇦 加拿大节点
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 🎥 JapanTV
     type: select
     proxies:
       - 🇯🇵 日本节点
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 🎥 youtube
     type: select
@@ -222,10 +209,6 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 🇹🇷 truky
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 🎥 奈飞视频
     type: select
@@ -238,17 +221,11 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - DIRECT
 
   - name: 📺 巴哈姆特
     type: select
     proxies:
       - 🇨🇳 台湾节点
-      - DIRECT
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 📺 哔哩哔哩
     type: select
@@ -266,7 +243,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - DIRECT
 
   - name: 🌏 国内媒体
     type: select
@@ -328,10 +304,6 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇭🇰 香港节点
       - 🇹🇷 truky
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   - name: 🍎 苹果服务
     type: select
@@ -344,10 +316,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
   
   - name: 🎶 网易音乐
     type: select
@@ -369,10 +337,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-    use:
-       - Airport_ChuYun
-       - Airport_PeiQian
-       - Airport_SSRDog
 
   # 地区自动分组
   - name: 🇭🇰 香港节点

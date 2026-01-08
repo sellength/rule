@@ -76,7 +76,6 @@ proxy-providers:
     url: "https://b-0927.abcdfeg.us/chu/abcd/8d98fdbf57c152775e3b462bd4014c30"
     path: "./proxy_providers/Airport_ChuYun.yaml"
     interval: 3600
-    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
@@ -87,7 +86,6 @@ proxy-providers:
     url: "https://xn--cp3a08l.com/api/v1/client/subscribe?token=7623970d04ab0bc25e70ebb68ed4fca3"
     path: "./proxy_providers/Airport_PeiQian.yaml"
     interval: 3600
-    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
@@ -98,7 +96,6 @@ proxy-providers:
     url: "https://a3279cb510c19b9e7236008ae94a0115.cdn-res-oss-cn-hongkong-aliyuncs-file.com/s?t=a3279cb510c19b9e7236008ae94a0115.jpg"
     path: "./proxy_providers/Airport_SSRDog.yaml"
     interval: 3600
-    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
@@ -109,6 +106,7 @@ proxy-groups:
   # 核心策略
   - name: 🚀 节点选择
     type: select
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     proxies:
       - ♻️ 自动选择
       - 🔯 故障转移
@@ -119,10 +117,10 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
-      - DIRECT
-      
+
   - name: 🚀 手动切换
     type: select
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     use:
       - Airport_ChuYun
       - Airport_PeiQian
@@ -130,6 +128,7 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
@@ -140,16 +139,18 @@ proxy-groups:
 
   - name: 🔯 故障转移
     type: fallback
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
-    use:
+    use:  
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
 
   - name: 🔮 负载均衡
     type: load-balance
+    filter: "(?i)(^((?!套餐|官网|客服|Date|Reset|流量|过期|GB|续费|重置).)*$)"
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     strategy: consistent-hashing

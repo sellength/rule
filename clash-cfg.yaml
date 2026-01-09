@@ -100,6 +100,16 @@ proxy-providers:
       enable: true
       url: http://cp.cloudflare.com/generate_204
       interval: 300
+      
+  Airport_FeiMA:
+    type: http
+    url: "https://fm.sdnlv0.cn/api/v1/feima/subscribe?token=3fc4a1a6fccd69dc8402f04bec8914d9"
+    path: "./proxy_providers/Airport_FeiMA.yaml"
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 300
 
 # 2. 策略组 (Proxy Groups)
 proxy-groups:
@@ -126,6 +136,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: ♻️ 自动选择
     type: url-test
@@ -137,6 +148,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🔯 故障转移
     type: fallback
@@ -148,6 +160,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🔮 负载均衡
     type: load-balance
@@ -159,6 +172,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   # 专用策略
   - name: 🎯 STEAM_DL_直连
@@ -344,6 +358,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇯🇵 日本节点
     type: select
@@ -352,6 +367,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇺🇲 美国节点
     type: select
@@ -360,6 +376,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇨🇳 台湾节点
     type: select
@@ -368,6 +385,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇸🇬 狮城节点
     type: select
@@ -376,6 +394,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇰🇷 韩国节点
     type: select
@@ -384,6 +403,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
   - name: 🇨🇦 加拿大节点
     type: select
@@ -392,6 +412,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
   
   - name: 🇹🇷 truky
     type: select
@@ -400,6 +421,7 @@ proxy-groups:
       - Airport_ChuYun
       - Airport_PeiQian
       - Airport_SSRDog
+      - Airport_FeiMA
 
 # 3. 规则集 (Rule Providers)
 rule-providers:

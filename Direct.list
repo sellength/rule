@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,tencentcloud.com
 DOMAIN-SUFFIX,htcloud.com
 DOMAIN-SUFFIX,ehuatai.com
-DOMAIN-SUFFIX,abcdfeg.us
+DOMAIN-KEYWORD,abcdfeg.us
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net

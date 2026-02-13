@@ -1,0 +1,33 @@
+name: "多机场流量面板"
+desc: "在首页显示多个机场的流量使用情况"
+
+# 1. 这里定义脚本来源 (使用 CDN 加速链接，防止打不开)
+script-providers:
+  TrafficPanel:
+    url: "https://fastly.jsdelivr.net/gh/mieqq/mieqq@master/sub_info_panel.js"
+    interval: 86400
+
+# 2. 这里定义首页要显示的卡片
+# 如果你有 2 个机场，就复制 2 段 '- script: ...' 
+panel-items:
+  - script:
+      name: "SSRDOg"
+      provider: TrafficPanel
+      # ⚠️ 注意：下面这一行必须修改！把 url= 后面的内容换成你的 Sub-Store 单个机场链接
+      # 建议对链接进行 URL Encode，如果链接里有 & 符号，必须用引号包裹整个 argument 字符串
+      argument: "url=g"
+  - script:
+      name: "自建AWS"
+      provider: TrafficPanel
+      # ⚠️ 这是第二个机场，不需要可以删掉
+      argument: "url="
+  - script:
+      name: "PQYun"
+      provider: TrafficPanel
+      # ⚠️ 这是第二个机场，不需要可以删掉
+      argument: "url="
+  - script:
+      name: "FeiMA"
+      provider: TrafficPanel
+      # ⚠️ 这是第二个机场，不需要可以删掉
+      argument: "url="

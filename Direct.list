@@ -7,6 +7,8 @@ DOMAIN-SUFFIX,htcloud.com
 DOMAIN-SUFFIX,ehuatai.com
 DOMAIN-SUFFIX,abcdfeg.us
 # MyList
+
+
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
 # sooplive相关域名akamai，sooplive
@@ -20,16 +22,13 @@ DOMAIN-SUFFIX,hxd.as174.de
 DOMAIN-SUFFIX,api.rc-backup.com
 DOMAIN-SUFFIX,163.com
 # chuyun域名匹配
-DOMAIN-SUFFIX,cyinc.cc
-DOMAIN-SUFFIX,cyltd.cc
-DOMAIN-SUFFIX,cy-2024.com
-DOMAIN-SUFFIX,cc232.cc
-DOMAIN-SUFFIX,inlook.me
-DOMAIN-SUFFIX,cyoo.top
-DOMAIN-SUFFIX,cy298.org
-DOMAIN-SUFFIX,cy298.cyou
-DOMAIN-SUFFIX,abcdfeg.us
-DOMAIN-SUFFIX,shanghainavi.com
+DOMAIN-SUFFIX,skk.moe
+DOMAIN-SUFFIX,cy-2026.us
+DOMAIN-SUFFIX,cy299.org
+DOMAIN-SUFFIX,chuyun.us
+DOMAIN-SUFFIX,cy298.cc
+IP-CIDR,52.199.236.42
+IP-CIDR,45.200.17.147
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,s8ks

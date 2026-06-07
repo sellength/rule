@@ -1,5 +1,4 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-# work
 DOMAIN-SUFFIX,cdsb.com
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,tencentcloud.com
@@ -7,9 +6,7 @@ DOMAIN-SUFFIX,htcloud.com
 DOMAIN-SUFFIX,ehuatai.com
 DOMAIN-SUFFIX,liangxin.xyz
 DOMAIN-SUFFIX,cdn-res-oss-cn-hongkong-aliyuncs-file.com
-# 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
-# sooplive相关域名akamai，sooplive
 DOMAIN-SUFFIX,sooplive.com
 DOMAIN-SUFFIX,akamai.com
 DOMAIN-SUFFIX,time.windows.com
@@ -19,13 +16,9 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hxd.as174.de
 DOMAIN-SUFFIX,api.rc-backup.com
 DOMAIN-SUFFIX,163.com
-# 自建服务器
 DOMAIN-SUFFIX,8964315.xyz
-# aws-sg
 IP-CIDR,13.212.86.239/32
 IP-CIDR6,2406:da18:98e:5c00:6a08:892f:1f71:fe75/128
-#aws-us
 IP-CIDR,44.247.105.11/32
 IP-CIDR6,2600:1f14:3c16:8500:d9a4:8b25:7483:a350/128
-# recloud
 IP-CIDR,207.174.6.98/32

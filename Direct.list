@@ -1,4 +1,9 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
+DOMAIN-SUFFIX,8964315.xyz
+DOMAIN-SUFFIX,xn--ghqu5fm27b67w.com
+DOMAIN-SUFFIX,xn--ghq880n3na965a.com
+DOMAIN-SUFFIX,globals-download.com
+DOMAIN-SUFFIX,yydjc.top
 DOMAIN-SUFFIX,cdsb.com
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,tencentcloud.com

@@ -1,20 +1,14 @@
-# === AI 平台与工具 ===
-DOMAIN-SUFFIX,openrouter.ai
-
-# === Gemini 核心信令与实时语音传输 ===
-DOMAIN,geminiweb-pa.clients6.google.com
-DOMAIN,signaler-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-
-# === Gemini 静态脚本、多模态与地图工具扩展 ===
+# === Gemini & Chrome 侧边栏 Live 核心 (全部兜底，防止跨节点阻断) ===
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,clients6.google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 
-# === 其他自定义服务 ===
+# === 其他 AI 平台 ===
+DOMAIN-SUFFIX,openrouter.ai
+
+# === 自定义其他服务 ===
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
-
-# Chrome 侧边栏 / Ask Gemini 专属信令通道
-DOMAIN,alkali-pa.clients6.google.com
-DOMAIN-SUFFIX,clients6.google.com

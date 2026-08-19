@@ -1,4 +1,7 @@
-# === Gemini & Chrome 侧边栏 Live 核心 (全部兜底，防止跨节点阻断) ===
+# === 核心鉴权与账号状态 (务必放在最前) ===
+DOMAIN-SUFFIX,accounts.google.com
+
+# === Gemini & Chrome 侧边栏与 Live 核心 ===
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,clients6.google.com
@@ -12,3 +15,4 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
+

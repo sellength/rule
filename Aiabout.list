@@ -14,3 +14,7 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
+
+# Chrome 侧边栏 / Ask Gemini 专属信令通道
+DOMAIN,alkali-pa.clients6.google.com
+DOMAIN-SUFFIX,clients6.google.com

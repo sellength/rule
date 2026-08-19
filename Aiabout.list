@@ -1,5 +1,8 @@
-# === 核心鉴权与账号状态 (务必放在最前) ===
+# === Google 核心鉴权与 Chrome 侧边栏组件 (解决侧边栏报错) ===
 DOMAIN-SUFFIX,accounts.google.com
+DOMAIN,ogs.google.com
+DOMAIN,clients4.google.com
+DOMAIN-SUFFIX,googleusercontent.com
 
 # === Gemini & Chrome 侧边栏与 Live 核心 ===
 DOMAIN-SUFFIX,gemini.google.com

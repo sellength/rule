@@ -27,3 +27,8 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
+
+# === muse ===
+- DOMAIN-SUFFIX,muse.ai,proxy
+- DOMAIN-SUFFIX,museai.com,proxy
+- DOMAIN-SUFFIX,ecto1.ai,proxy

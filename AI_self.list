@@ -29,6 +29,6 @@ DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
 
 # === muse ===
-DOMAIN-SUFFIX,muse.ai,proxy
-DOMAIN-SUFFIX,museai.com,proxy
-DOMAIN-SUFFIX,ecto1.ai,proxy
+DOMAIN-SUFFIX,https://muse.ai,proxy
+DOMAIN-SUFFIX,https://museai.com,proxy
+DOMAIN-SUFFIX,https://ecto1.ai,proxy

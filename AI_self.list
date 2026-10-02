@@ -16,7 +16,6 @@ DOMAIN,accounts.google.com
 DOMAIN,ogs.google.com
 DOMAIN,clients4.google.com
 DOMAIN,www.google.com
-
 # === AI 依赖接口与前端多模态静态资源 ===
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
@@ -29,6 +28,6 @@ DOMAIN-KEYWORD,ultramobile
 DOMAIN-SUFFIX,truthsocial.com
 
 # === muse ===
-DOMAIN-SUFFIX,https://muse.ai,proxy
-DOMAIN-SUFFIX,https://museai.com,proxy
-DOMAIN-SUFFIX,https://ecto1.ai,proxy
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,ecto1.ai

@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-KEYWORD,generativeai
 DOMAIN-SUFFIX,gvt1.com
+DOMAIN-KEYWORD,antigravity
 
 # === Gemini Live / Chrome 侧边栏实时通信信令 ===
 DOMAIN-SUFFIX,clients6.google.com
